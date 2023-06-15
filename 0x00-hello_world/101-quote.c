@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * main - is void
- *Return 1 for success
+ * main - print and that piece of art is useful
+ *Return: alway 1
  */
 
 int main(void)
