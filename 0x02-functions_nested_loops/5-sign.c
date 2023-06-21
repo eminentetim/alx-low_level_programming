@@ -1,25 +1,26 @@
 #include "main.h"
-
 /**
- * int print - sign
- * Return: 0 for 0, 1 for +,
- * and -1 for -
+ * print_sign - Prints the sign of a number
+ * @n: The number to check
+ * Return: 1 if n is greater than zero, 0
+ * if n is zero, -1 if n is less than zero
  */
-int print _sign(int n)
+int print_sign(int n)
 {
 	if (n < 0)
 	{
-		printf("-");
+		_putchar('-');
 		return (-1);
 	}
 	else if (n > 0)
 	{
-		printf("+");
+		_putchar('+');
 		return (1);
 	}
 	else
 	{
-		printf("0");
+		_putchar('0');
 		return (0);
 	}
-
+	/** it will print a sign, if n is true */
+}
