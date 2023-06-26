@@ -3,22 +3,19 @@
 
 /**
  * _strlen - returns the length of a string
- * @str: string to calculate length of
+ * @s: string to calculate length of
  *
  * Return: length of string
  */
 
-int _strlen(char *str)
+int _strlen(char *s)
 
 {
 	int len = 0;
 
-	str = "My first strlen!";
-
-	while (*str != '0')
+	while (*s++)
 	{
 		len++;
-		str++;
 	}
 	return (len);
 }
