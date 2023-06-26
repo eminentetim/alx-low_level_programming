@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * rev_string - Reverses a string in place.
+ * puts2 - Reverses a string in place.
  * @str: The string to reverse.
  * Return: void
  */
