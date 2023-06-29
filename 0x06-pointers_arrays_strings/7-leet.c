@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * leet - Concatenates two strings.
+ * @n: Pointer to the length of x and y.
+ * Return: n
+ */
+
+
+
 char *leet(char *n)
 {
 	int i;
