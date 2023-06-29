@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * string_toupper - Concatenates two strings.
+ * @str: Pointer to the destination string.
+ * Return: str
+ */
+
+
 char *string_toupper(char *str)
 {
 	int i;
