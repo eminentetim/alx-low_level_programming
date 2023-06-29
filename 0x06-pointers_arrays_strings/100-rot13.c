@@ -1,4 +1,10 @@
-#include "main.h"
+#include "main."
+
+/**
+ * rot13 - encode the value of x.
+ * @x: compare the letters.
+ * Return: n
+ */
 
 
 char *rot13(char *x)
