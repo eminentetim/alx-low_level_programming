@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
+/**
+ * print_buffer - To print buffer.
+ * @b: Pointer to the source string.
+ * @size: set the size
+ * Return: 0.
+ */
 void print_buffer(char *b, int size)
 {
 	int k = 0;
@@ -12,13 +17,11 @@ void print_buffer(char *b, int size)
 		printf("\n");
 		return;
 	}
-
 	while (k < size)
 	{
 		j = size - k < 10 ? size - k : 10;
 		printf("%08x: ", k);
 	
-
 	for (i = 0; i < 10; i++)
 	{
 		if (i < j)
@@ -26,13 +29,9 @@ void print_buffer(char *b, int size)
 			printf("%02x", *(b + k + i));
 		}
 		else
-		{
 			printf("  ");
-		}
 		if (i % 2)
-		{
 			printf(" ");
-		}
 	}
 
 	for (i = 0; i < j; i++)
@@ -48,5 +47,4 @@ void print_buffer(char *b, int size)
 	printf("\n");
 	k += 10;
 	}
-
 }
