@@ -4,6 +4,8 @@
 int _putchar(char c);
 int square(int s, int sqr);
 int fix(int x, int y);
+int fix_pal(char *s, int l, int i);
+int len_rec(char *s);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
