@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-
-
+#include <stdlib.h>
+ #include <ctype.h>
 /**
  * main - Entry point of the program
  * @argc: The number of command line arguments
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		sum += atoi(argv[i]);
+		sum +=atoi(argv[i]);
 
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
