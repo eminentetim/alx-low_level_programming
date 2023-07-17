@@ -10,7 +10,7 @@
  *
  *Description: structure to store dog info
  */
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
