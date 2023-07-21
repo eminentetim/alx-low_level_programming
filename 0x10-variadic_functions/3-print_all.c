@@ -16,7 +16,7 @@ void print_all(const char * const format, ...)
 
 	va_start(sp, format);
 
-	for (k = 0; format && format[k]; k++)
+	while (format && format[k])
 	{
 		if (commaCheck)
 			printf(", ");
