@@ -12,9 +12,8 @@ int _strlen(const char *str)
 {
 	unsigned int l;
 
-	for (l = 0;str[l] != '\0'; l++)
+	for (l = 0; str[l] != '\0'; l++)
 	{
-	
 	}
 	return (l);
 }
