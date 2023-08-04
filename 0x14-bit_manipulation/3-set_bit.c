@@ -1,27 +1,21 @@
 #include "main.h"
-
-
 /**
- * set_bit - convert real number to binary.
- * @n: is the integer
- * @index: the lenght of the integer.
+ * set_bit - Sets value of bit to 1
  *
- * Return: binary.
- **/
-
-
-
+ * @n: long int
+ *
+ * @index: unsigned int
+ *
+ * Return: 1 if works -1 on failure
+ */
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int size = 8 * sizeof(unsigned long int);
-	unsigned long int k = 1UL << index;
-
-	if (n == NULL || index >= size)
+	if (index < sizeof(n) * 8)
 	{
-		return (-1);
+		*n = *n | (1 << index);
+		return (1);
 	}
 
-	*n |= k;
-	return (0);
+	return (-1);
 }
