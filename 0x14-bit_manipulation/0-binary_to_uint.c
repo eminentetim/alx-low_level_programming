@@ -3,7 +3,7 @@
 
 /**
  * binary_to_uint - to convert binery to real number
- * @*b: binary
+ * @b: binary
  *
  * Return: result
  */
