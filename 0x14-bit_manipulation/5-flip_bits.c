@@ -2,10 +2,9 @@
 
 
 /**
- * flip_bit - convert real number to binary.
+ * flip_bits - convert real number to binary.
  * @n: is the integer
  * @m: is the second integer
- *@index: the lenght of the integer.
  *
  * Return: binary.
  **/
@@ -14,13 +13,12 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int result = n ^ m;
-	unsigned int i = 0;
+	unsigned int i;
 
-	while (result != 0)
+	for (i = 0; result != 0; i++)
 	{
 		if (result & 1)
 		{
-			i++;
 		}
 		result >>= 1;
 	}
