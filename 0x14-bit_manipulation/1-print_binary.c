@@ -2,7 +2,7 @@
 
 /**
  * print_binary - convert real number to binary.
- * @n: is the integer
+ * @n: is the integer number
  *
  * Return: binary.
  **/
