@@ -3,7 +3,7 @@
 /**
  * read_textfile - reads a text file and prints it.
  *
- * @filename: const char type pointer to file to be read
+ * @filename: const char type pointer to file to be readed
  *
  * @letters: size_t type
  *
