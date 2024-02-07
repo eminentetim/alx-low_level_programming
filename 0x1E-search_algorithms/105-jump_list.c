@@ -1,6 +1,5 @@
 /*
  * File: 105-jump_list.c
- * Auth: Brennan D Baraban
  */
 
 #include "search_algos.h"
